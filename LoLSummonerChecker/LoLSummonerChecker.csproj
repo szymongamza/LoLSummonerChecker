@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\challenger.png" />
+    <None Remove="Assets\emblems\Emblem_Bronze.png" />
+    <None Remove="Assets\emblems\Emblem_Challenger.png" />
+    <None Remove="Assets\emblems\Emblem_Diamond.png" />
+    <None Remove="Assets\emblems\Emblem_Gold.png" />
+    <None Remove="Assets\emblems\Emblem_Grandmaster.png" />
+    <None Remove="Assets\emblems\Emblem_Iron.png" />
+    <None Remove="Assets\emblems\Emblem_Master.png" />
+    <None Remove="Assets\emblems\Emblem_Platinum.png" />
+    <None Remove="Assets\emblems\Emblem_Silver.png" />
+    <None Remove="Assets\logo_LOL.png" />
+    <None Remove="Assets\logo_LOL_v2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\logo_LOL_v2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\emblems\Emblem_Bronze.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\emblems\Emblem_Challenger.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\emblems\Emblem_Diamond.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\emblems\Emblem_Gold.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\emblems\Emblem_Grandmaster.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\emblems\Emblem_Iron.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\emblems\Emblem_Master.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\emblems\Emblem_Platinum.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\emblems\Emblem_Silver.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\logo_LOL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="API\Key.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
